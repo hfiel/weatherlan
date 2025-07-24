@@ -2,7 +2,7 @@
  **ARCHIVED REPO** WeatherLAN: Sensor de temperatura y humedad con Arduino
 
 This is an archived copy with all the code and documentation from my 2011 project *"WeatherLAN: temperature and humidity sensor with Arduino"*.
-The documentation is in Spanish, and not a single line has been changed since the original publishing.
+The documentation is in Spanish, and not a single line has been changed since the original publishing, except to adapt the HTML landing page to the archival process.
 
 **This is absolutely outdated, I do not recommend using it at all.**
 
