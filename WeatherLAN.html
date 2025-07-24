@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>WeatherLAN</title>
+<meta name="keywords" content="sensor, arduino, temperatura, humedad">
+<meta name="description" content="Sensor temperatura y humedad Arduino">
+<link href="style.css" rel="stylesheet" type="text/css" media="screen">
+<link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+<div id="wrapper">
+	<div id="header-wrapper">
+		<div id="header">
+			<div id="logo">
+	<h1><a href="#">WeatherLAN  </a></h1>
+			</div>
+		</div>
+	</div>
+</div>
+<h3>WeatherLAN: sensor de temperatura y humedad con Arduino</h3>
+<div id="faq">
+<ol>
+<li>Qué es WeatherLAN:</li>
+	<ul>
+		<li>WeatherLAN es un proyecto libre que combina HW y SW para registrar la temperatura y humedad de un entorno.</li>
+		<li>Utiliza una plataforma HW Arduino junto con 2 sensores de temperatura y 1 de humedad.</li>
+		<li>Almacena en una BBDD accesible mediante Web la información recibida del sistema HW.</li>
+	</ul>
+<li>Autor:</li>
+	<ul>
+		<li>El proyecto ha sido creado por Héctor Fiel (<a href="http://hfiel.es/">http://hfiel.es</a>) durante su Beca de Investigación en la <a href="http://www.juntadeandalucia.es/cultura/web">Consejería de Cultura - Junta de Andalucía</a></li>
+	</ul>
+<li>Documentación:</li>
+	<ul>
+		<li>Memoria del proyecto: <a href="weatherlan_memoria.pdf">weatherlan_memoria.pdf</a>. <br>
+ En la documentación del proyecto en PDF se incluye toda la información 
+generada en el mismo. Si tu interés es simplemente construir el sensor, 
+uno de los anexos finales contiene toda la información necesaria. El 
+resto del documento detalla el proceso de investigación del mismo, y 
+probablemente no te resulte de utilidad.</li>
+	</ul>
+
+<li>Descarga:</li>
+	<ul>
+		<li>Versión 1: <a href="weatherlan_v1.zip">weatherlan_v1.zip</a>.
+ El fichero ZIP contiene todos los códigos y ficheros necesarios para 
+construir e implantar el sensor, así como el servidor web. Se incluyen 
+igualmente los ficheros para fabricar la placa PCB, así como los 
+esquemas eléctricos.</li>
+	</ul>
+<li>Licencias:</li>
+	<ul>
+		<li>El proyecto se basa completamente en licencias libres.</li>
+		<ul>
+			<li>Hardware: el diseño del circuito de sensores para usar con la plataforma Arduino se ampara en la licencia <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons CC-BY-SA 3.0</a></li>
+			<li>Software: el código del programa Arduino, así como el código Web 
+(PHP+MySQL) para la página de interfaz de usuario se amparan en la <a href="http://www.gnu.org/licenses/gpl.html">licencia GPL</a> versión 3</li>
+			<li>Documentación: la documentación del proyecto en formato PDF se ampara en la licencia <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons CC-BY-SA 3.0</a></li>
+		</ul>
+		<li>Estas licencias le permiten lo siguiente:</li>
+		<ul>
+			<li>Usar libremente tanto el código como los diseños en cualquier proyecto, incluyendo proyectos comerciales.</li>
+			<li>Llevar a cabo modificaciones en cualquier parte del proyecto.</li>
+		</ul>
+		<li>Siempre que se cumplan las condiciones siguientes:</li>
+		<ul>
+			<li>Cualquier modificación o adaptación del proyecto tiene que ser distribuida de forma libre, bajo las mismas licencias.</li>
+			<li>Se debe reconocer al autor original del proyecto en la versión modificada.</li>
+		</ul>
+	</ul>
+<li class="aviso">Aviso de exención de responsabilidad:</li>
+	<ul>
+		<li>Este proyecto libre de hardware y software se ofrece tal cual, con la esperanza de que pueda ser útil, pero el autor <span class="aviso">NO OFRECE GARANTÍA ALGUNA</span>
+ respecto al mismo, incluyendo garantías sobre su correcto 
+funcionamiento o adecuada adaptación a un propósito específico. Si usted
+ o su organización no pueden aceptar posibles riesgos en el 
+funcionamiento o uso del sistema, le ruego que no lo utilize.</li>
+		<li>El proyecto, en su estado actual, está pensado para su uso en una red local. <span class="aviso">No se recomienda su instalación en un servidor Web con acceso público desde Internet</span>, dado que no se ha implentado ningún tipo de sistema de seguridad ni de control de accesos.</li>
+	</ul>
+<li>Reconocimientos:</li>
+	<ul>
+		<li>WeatherLAN utiliza las siguientes librerías o programas:</li>
+			<ul>
+				<li><a href="http://teethgrinder.co.uk/open-flash-chart-2/">Open Flash Chart 2</a></li>
+				<li><a href="http://www.frequency-decoder.com/2009/09/09/unobtrusive-date-picker-widget-v5">Unobstrusive Calendar Widget v5</a></li>
+				<li><a href="http://www.arduino.cc/playground/Code/Time">Libreria de tiempo para Arduino</a></li>
+				<li><a href="https://bitbucket.org/bjoern/arduino_osc/src/14667490521f/libraries/Ethernet/">Libreria comunicaciones UDP para Arduino</a></li>
+				<li><a href="http://milesburton.com/index.php/Dallas_Temperature_Control_Library">Librería 1-Wire para los sensores de temperatura Dallas/Maxim</a></li>
+			</ul>
+	</ul>
+</ol>
+</div>
+
+</body></html>
